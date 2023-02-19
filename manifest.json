@@ -1,0 +1,12 @@
+{
+  "name": "IN Connect",
+  "description": "IN Connect Extensions",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html",
+    "default_icon": "in.jfif"
+  },
+  "permissions": ["scripting"],
+  "host_permissions" : ["<all_urls>"]
+}
