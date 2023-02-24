@@ -91,7 +91,7 @@ const execFunc = () => {
         time: Date(window.timestamp),
       });
       // btn.style.backgroundColor = "green";
-      if (btnConnect.length < 0) {
+      if (btnConnect.length <= 0) {
         console.log("Connect request done");
         chrome.runtime.sendMessage({
           type: "notification",
